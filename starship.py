@@ -23,9 +23,9 @@ class Starship():
     def update_starship(self):
         # Изменение положения корабля
         if self.move_right and self.rect.right < self.screen_rect.right:
-            self.rect.centerx += 3
+            self.rect.centerx += 10
         if self.move_left and self.rect.left > self.screen_rect.left:
-            self.rect.centerx -= 3
+            self.rect.centerx -= 10
 
     def create_starship(self):
         # Размещает по центру внизу корабль
